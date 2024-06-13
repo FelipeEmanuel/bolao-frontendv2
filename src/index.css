@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.h2X {
+  flex-basis: 6%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.placar {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.palpiteG {
+  color: green;
+}
+
+.palpiteB {
+  color: #009999;
+}
+
+.palpiteY {
+  color: orange;
+}
+
+.palpiteC {
+  color: #999966;
+}
+
+.palpiteR {
+  color: red;
+}
+
+.deletarComp {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
