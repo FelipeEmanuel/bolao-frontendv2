@@ -106,7 +106,7 @@ function LateralMenu() {
               <Text fontSize={20}>Rankings</Text>
             </Box>
             <UnorderedList styleType="''" fontSize={17} cursor="pointer">
-              <ListItem _hover={{ bg: "#fff", textColor: "#141414" }}>Semanal Futebol</ListItem>
+              <Link to='/semanal'><ListItem _hover={{ bg: "#fff", textColor: "#141414" }}>Semanal Futebol</ListItem></Link>
               <ListItem _hover={{ bg: "#fff", textColor: "#141414" }}>Semanal e-Sports</ListItem>
               <ListItem _hover={{ bg: "#fff", textColor: "#141414" }}>Rankings Futebol</ListItem>
               <ListItem _hover={{ bg: "#fff", textColor: "#141414" }}>Rankings e-Sports</ListItem>

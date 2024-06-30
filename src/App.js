@@ -10,6 +10,7 @@ import FAQ from './pages/FAQ';
 import JogosFutebol from './pages/JogosFutebol';
 import Times from './pages/Times';
 import Competicoes from './pages/Competicoes';
+import SemanalFutebol from './pages/SemanalFutebol';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path='/faq' element={<FAQ/>}/>
             <Route path='/futebol' element={<PalpitesFutebol/>}/>
             <Route path='/esports' element={<PalpitesEsports/>}/>
+            <Route path='/semanal' element={<SemanalFutebol/>} />
             <Route path='/jogos' element={<JogosFutebol/>}/>
             <Route path='/jogosesports' />
             <Route path='/times' element={<Times/>}/>
